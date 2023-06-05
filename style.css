@@ -1,0 +1,215 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul li {
+  list-style: none ;
+}
+
+a {
+  text-decoration: none ;
+}
+
+ul {
+  padding: 0 ;
+  margin: 0 ;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+p {
+  margin: 0 ;
+}
+
+.section {
+  margin-bottom: 50px ;
+}
+.title{
+  padding: 50px 0;
+}
+/* Header */
+.header {
+  background-color: #0081d1 !important;
+  justify-content: space-between !important;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+}
+
+.link-nav {
+  font-weight: 700;
+  color: white;
+}
+
+.list-header {
+  display: flex;
+  gap: 70px;
+}
+
+.item-header>a {
+  color: white;
+  font-weight: 700;
+}
+
+/* Goi vay */
+.sect-products {
+  padding: 50px 0;
+  background-color: #f1f2f1;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: #0d6efd;
+  padding-bottom: 50px;
+}
+
+.list-cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.image-card {
+  height: 300px;
+}
+
+.item-card {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.text-cards {
+  padding: 20px 10px;
+}
+/* Uu Diem */
+
+.uu-diem{
+  position: relative;
+}
+.list-noi-bac {
+
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  gap: 30px;
+}
+.content-uu-diem {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.item-noi-bac > ul {
+  display: grid;
+  gap: 30px;
+}
+
+.item-noi-bac > ul > li {
+  display: flex;
+  gap: 10px;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  font-weight: bold;
+  align-items: center;
+  background-color: #f1f2f1;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+.item-noi-bac > ul > li > i {
+  font-size: 45px;
+}
+
+.item-noi-bac > ul > li > p {
+  color: #131313;
+}
+/* dang ky vay */
+.sect-dang-ky{
+  background-color: #e6e6e6;
+  padding-bottom: 50px;
+}
+.signup{
+  display: flex;
+}
+.signup-connect{
+  width: 50%;
+}
+.signup-classic{
+  width: 50%;
+}
+input{
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid gray;
+  padding: 15px 10px;
+}
+.form{
+  width: 100% ;
+  display: grid;
+  row-gap: 20px;
+  padding-left: 30px;
+}
+.btn-submit{
+  background-color: #0081d1;
+  color: white;
+  border-radius: 25px;
+
+}
+.btn-submit:hover{
+  color: #0081d1;
+  background-color: white;
+  border: 1px solid #0081d1;
+  border-radius: 25px;
+}
+/* footer */
+.footer{
+  background-color: #0081d1;
+}
+.list-footer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px 0;
+}
+.title-h5{
+  color: white;
+}
+.item-goi-vay > p{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+.item-contact-address{
+  display: flex;
+}
+.item-contact > p{
+  color: white;
+}
+.item-contact-address > p{
+  color: white;
+}
+.item-contact-address > p:last-child{
+  font-style: italic;
+}
